@@ -10,4 +10,5 @@ def hmap():
     return heightmap
 
 img = hmap()
+print(img)
 plt.imsave('heightmap.png',img)
